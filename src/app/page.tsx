@@ -1,4 +1,5 @@
-
+import Header from '@/components/header'
+import Footer from '@/components/footer'
 import HeroSection from '@/components/Home/hero-section'
 import FeaturesSection from '@/components/Home/features-section'
 import CtaSection from '@/components/Home/cta-section'
