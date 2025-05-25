@@ -15,7 +15,7 @@ const Header = () => {
         <div className="flex items-center space-x-6">
           <Link className="flex items-center space-x-2" href="/">
             <img
-              src="/Soul.png"
+              src="/SOUL.png"
               alt="Soul Logo"
               className="h-10 w-auto"
               onError={(e) => {
