@@ -27,16 +27,15 @@ const Footer = () => {
             <h4 className="font-medium text-gray-900 mb-2">Company</h4>
             <ul className="space-y-1 text-gray-600">
               <li><Link href="/about" className="hover:text-black">About</Link></li>
-              <li>
-  <Link href="/support" className="hover:text-black">Support</Link>
-</li>
+              <li><Link href="/support" className="hover:text-black">Support</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-medium text-gray-900 mb-2">Community</h4>
+            <h4 className="font-medium text-gray-900 mb-2">Legal</h4>
             <ul className="space-y-1 text-gray-600">
-              <li><a href="https://t.me/YourTelegram" target="_blank" rel="noopener noreferrer" className="hover:text-black">Discord</a></li>
+              <li><Link href="/TermsOfService" className="hover:text-black">Terms of Service</Link></li>
+              <li><Link href="/PrivacyPolicy" className="hover:text-black">Privacy Policy</Link></li>
             </ul>
           </div>
         </div>
