@@ -3,7 +3,6 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { Coins, Menu, X } from 'lucide-react'
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 
 const Header = () => {
