@@ -209,7 +209,7 @@ const CreateToken = () => {
       const fromPubkey = provider.publicKey;
       if (!fromPubkey) throw new Error("No public key");
   
-      const connection = new Connection(process.env.NEXT_PUBLIC_RPC_URL || "https://devnet.helius-rpc.com/?api-key=29b6dc7f-8cec-4e0c-ac71-bea0ee8338a7");
+      const connection = new Connection(process.env.NEXT_PUBLIC_RPC_URL || "https://mainnet.helius-rpc.com/?api-key=29b6dc7f-8cec-4e0c-ac71-bea0ee8338a7");
   
       const { blockhash } = await connection.getLatestBlockhash();
       const toAddress = YOUR_WALLET_ADDRESS;
