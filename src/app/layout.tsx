@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Launch your own Solana token with ease using Soulmint. Create, mint, and manage tokens on the Solana blockchain.",
       icons: {
-        icon: '/favicon.ico',
+        icon: '/favicon.png',
       },
   };
 
